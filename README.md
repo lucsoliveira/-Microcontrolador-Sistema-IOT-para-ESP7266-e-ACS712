@@ -18,7 +18,7 @@ O hardware foi projetado tendo em vista o padrão modular de projetos eletrônic
 
 ![Esquemático do Projeto](./docs/esquematico.png)
 
-Com o auxílio do software web EasyEDA, é possível obter a PCB para manufatura da placa do projeto. Um esboço 3D pode ser observado a seguir.
+Com o auxílio do software web EasyEDA é possível obter a PCB para manufatura da placa do projeto. Um esboço 3D pode ser observado a seguir.
 
 ![Esquemático do Projeto](./docs/placa3d.jpg)
 
@@ -32,9 +32,9 @@ Há três parâmetros essenciais na configuração do software do hardware, send
 - "servidor_mqtt", onde você deve colocar o endereço IP ou URL da máquina que está rodando o painel de controle web;
 - "calibracao", constante de calibração para obtenção através do sensor ACS712 do valor correto de corrente elétrica, que deve ser calculada conforme explicada neste [trabalho](https://1drv.ms/b/s!AtUhTt_AN0eRh4B7avzjPnZivLJ01Q?e=E67Xtg).
 
-Depois de copiar as bibliotecas e alterar as variáveis e constantes acima, abra o arquivo "sistemaMonitoramento.ino" no software Arduino IDE e inicie a compilação com o hardware conectado em seu computador, seguindo o passo-a-passo disponibilizado neste [trabalho](https://1drv.ms/b/s!AtUhTt_AN0eRh4B7avzjPnZivLJ01Q?e=E67Xtg).
+Depois de copiar as bibliotecas e alterar as variáveis e constantes acima, abra o arquivo "sistemaMonitoramento.ino" no Arduino IDE e inicie a compilação com o hardware conectado em seu computador, seguindo o passo-a-passo disponibilizado neste [trabalho](https://1drv.ms/b/s!AtUhTt_AN0eRh4B7avzjPnZivLJ01Q?e=E67Xtg).
 
-Por fim, se a compilação do softweare no hardware ocorrer conforme o projetado e, também, estiver rodando [o painel de controle web](https://github.com/lucsoliveira/Servidor-Aplicacao-Web-Sistema-IoT) em um servidor externo, com o hardware conectado ao painel de controle, é possível acessar uma Dashboard que possui todos os componentes necessários para o controle e o monitoramento, conforme a imagem a seguir.
+Por fim, se a compilação do software no hardware ocorrer conforme o projetado e, também, estiver rodando [o painel de controle web](https://github.com/lucsoliveira/Servidor-Aplicacao-Web-Sistema-IoT) em um servidor externo, com o hardware conectado ao painel de controle, é possível acessar uma Dashboard que possui todos os componentes necessários para o controle e o monitoramento, conforme a imagem a seguir.
 
 ![Dashboard](./docs/dashboard.png)
 
